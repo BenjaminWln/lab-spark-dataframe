@@ -1,0 +1,9 @@
+[project]
+name = "lab-pyspark-silver"
+version = "0.1.0"
+description = "Lab: Bronze to silver with Spark DataFrames (Spark SQL, Parquet, Iceberg)"
+requires-python = ">=3.10"
+dependencies = ["pyspark>=4.1,<4.2", "faker", "duckdb", "pandas<3", "pyarrow"]
+
+[tool.uv]
+package = false

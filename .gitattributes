@@ -1,0 +1,2 @@
+# Same line endings everywhere (a .sh file with Windows CRLF endings does not run)
+* text=auto eol=lf
